@@ -1,16 +1,15 @@
 using System;
-using TMPro;
 using Unity.Behavior;
 using UnityEngine;
 using Action = Unity.Behavior.Action;
 using Unity.Properties;
 
 [Serializable, GeneratePropertyBag]
-[NodeDescription(name: "Talk", story: "[Self] say [Sentence]", category: "Action", id: "91f2ab5d9468cc29e50c3fbd7c4abadf")]
-public partial class TalkAction : Action
+[NodeDescription(name: "Find Cop", story: "Agent follows [Target]", category: "Action", id: "9a0349d4b622eee9db7f372d38637094")]
+public partial class FindCopAction : Action
 {
-    [SerializeReference] public BlackboardVariable<GameObject> Self;
-    [SerializeReference] public BlackboardVariable<Text> Sentence;
+    [SerializeReference] public BlackboardVariable<GameObject> Target;
+
     protected override Status OnStart()
     {
         return Status.Running;
