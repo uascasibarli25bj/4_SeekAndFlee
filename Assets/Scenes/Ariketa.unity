@@ -182,7 +182,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
+<<<<<<< HEAD
     m_TransformParent: {fileID: 0}
+=======
+    m_TransformParent: {fileID: 907244348}
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
     m_Modifications:
     - target: {fileID: 4789449964865049033, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
       propertyPath: m_LocalPosition.y
@@ -194,6 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: -0.026379943
       objectReference: {fileID: 0}
     - target: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
@@ -203,6 +208,17 @@ PrefabInstance:
     - target: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
       propertyPath: m_LocalPosition.z
       value: 15.77999
+=======
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.5499997
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.5
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
       objectReference: {fileID: 0}
     - target: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
       propertyPath: m_LocalRotation.w
@@ -234,7 +250,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7438494788967298231, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD
       value: Lapur maltzurra
+=======
+      value: Robber
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -474,6 +494,7 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 256081289}
+<<<<<<< HEAD
 --- !u!1 &266448531
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +548,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
 --- !u!1 &373504789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7438494788967298231, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
@@ -993,7 +1016,11 @@ GameObject:
   m_Component:
   - component: {fileID: 907244348}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: Lapur normalak
+=======
+  m_Name: Lapurrak
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1012,6 +1039,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
+=======
+  - {fileID: 1167691315}
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
   - {fileID: 731546480}
   - {fileID: 89324102}
   - {fileID: 1713017401}
@@ -1802,6 +1833,14 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+<<<<<<< HEAD
+=======
+--- !u!4 &1167691315 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7423567203501390115, guid: b79d0b13355dc8f44b7956db61a82656, type: 3}
+  m_PrefabInstance: {fileID: 85957003}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
 --- !u!114 &1167691316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1818,13 +1857,17 @@ MonoBehaviour:
   m_BlackboardVariableOverridesList:
   - rid: 2635532767394791686
   - rid: 2635532926138188155
+<<<<<<< HEAD
   - rid: 1056755298640593045
+=======
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
   m_OriginalGraph: {fileID: -4758148978085009038, guid: 6d402429ad81f774093ba182b7954554, type: 2}
   m_IsInitialised: 0
   m_IsStarted: 0
   references:
     version: 2
     RefIds:
+<<<<<<< HEAD
     - rid: 1056755298640593045
       type: {class: 'BlackboardVariable`1[[System.Boolean, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -1833,6 +1876,8 @@ MonoBehaviour:
           m_Value1: 8944630679828964219
         Name: ShowWarning
         m_Value: 1
+=======
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
     - rid: 2635532767394791686
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -3901,5 +3946,8 @@ SceneRoots:
   - {fileID: 1257355832}
   - {fileID: 1110379938}
   - {fileID: 907244348}
+<<<<<<< HEAD
   - {fileID: 85957003}
   - {fileID: 266448533}
+=======
+>>>>>>> e212de6412cd494e98ca16eaf0e586607eadc1c1
